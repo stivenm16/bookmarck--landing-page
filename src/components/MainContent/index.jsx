@@ -1,6 +1,6 @@
 import Logo from '../../../images/logo-bookmark.svg'
 import './index.css'
-
+// import {logoHero} from '../../../images/ilustration-hero.svg'
 
 function Main() {
     return (
@@ -15,9 +15,13 @@ function Main() {
                     <button className='download-extension' id='firefox'>Get it on Firefox</button>
                 </div>
             </div>
-            <div className="first-img">
-
-            </div>
+            {/* <div className="main-img">
+                <img src={logoHero} alt="" />
+                <div>
+                    <div className='square'></div>
+                    <div className='circle'></div>
+                </div>
+            </div> */}
         </div>
     );
   };
