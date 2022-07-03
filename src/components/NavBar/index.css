@@ -19,7 +19,7 @@
 .nav-btns {
     background-color: transparent;
     border: none;
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: 1.3px;
     font-weight: 400;
     color: hsl(229, 31%, 21%);
@@ -32,25 +32,29 @@
 
 .nav-btns:hover {
     color: hsl(0, 94%, 66%);
-    transition: .1s ;
+    transition: .5s ;
 
 }
 
 .Logo {
-    padding-left: 4rem;
+    padding-left: 8rem;
     
 }
 
 #login-btn {
-    width: 5rem;
+    width: 5.5rem;
     height: 2rem;
-    border-radius: 8px;
-    border: 1px solid hsla(0, 94%, 66%, 0);
+    border-radius: 4px;
+    
+    color: #FFF;
+    background-color: hsl(0, 94%, 66%);
 }
 
 #login-btn:hover {
     
+    background-color: transparent;
     border: 1px solid hsl(0, 94%, 66%);
+    color: hsl(229, 31%, 21%);
         
 
 }
