@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    padding-top: 2rem;
+}
+
+.nav-bar {
+    display: flex;
+    
+    margin-left: 5rem;
+    margin: 1rem;
+    width: 40%;
+    justify-content: space-around;
+    margin-right: 4rem;
+}
+
+.nav-btns {
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    font-weight: 400;
+    color: hsl(229, 31%, 21%);
+    transition: 1s;
+    cursor: pointer;
+
+    /* padding: 1.5rem; */
+    
+}
+
+.nav-btns:hover {
+    color: hsl(0, 94%, 66%);
+    transition: .1s ;
+
+}
+
+.Logo {
+    padding-left: 4rem;
+    
+}
+
+#login-btn {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: 1px solid hsla(0, 94%, 66%, 0);
+}
+
+#login-btn:hover {
+    
+    border: 1px solid hsl(0, 94%, 66%);
+        
+
+}

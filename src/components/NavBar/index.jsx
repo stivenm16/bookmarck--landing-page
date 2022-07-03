@@ -1,18 +1,21 @@
 import React from "react";
 import Logo from '../../../images/logo-bookmark.svg'
+import './index.css'
 
 function Nav() {
     return (
-        <header>
+        <div className="header">
+            <div className="Logo">
             <img id="logo" src={Logo}  alt="" />
-            <nav className="navbar navbar-dark bg-dark">
-                <button>FEATURES</button>
-                <button>PRICING</button>
-                <button>CONTACT</button>
-                <button>LOGIN</button>
+            </div>
+            <div className="nav-bar">
+                <button className="nav-btns">FEATURES</button>
+                <button className="nav-btns">PRICING</button>
+                <button className="nav-btns">CONTACT</button>
+                <button className="nav-btns" id="login-btn">LOGIN</button>
                 
-            </nav>
-        </header>
+            </div>
+        </div>
     );
   };
   export default Nav;
