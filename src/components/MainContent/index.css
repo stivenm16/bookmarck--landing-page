@@ -1,6 +1,8 @@
 .main-content {
-    width: 40%;
+    display: flex;
+    width: 90%;
     padding: 5rem;
+    padding-top: 3.5rem;
     margin-left: 4rem;
     font-size: 24px;
 }
@@ -8,8 +10,10 @@
 .main-text {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    margin-top: 5rem;
     text-align:left;
+    width: 40%;
 }
 h1 {
     font-weight: 500;
@@ -21,6 +25,7 @@ h1 {
     color: hsl(229, 8%, 60%);
     font-size: 18px;
     line-height: 1.7rem;
+
 }
 
 .extensions{
@@ -28,6 +33,7 @@ h1 {
     gap: 2rem;
     
 }
+
 
 .download-extension {
     display: flex;
@@ -67,4 +73,32 @@ h1 {
     background-color: transparent;
     border: 1px solid hsl(231, 69%, 60%);
     color:hsl(231, 69%, 60%)
+}
+
+.main-img{
+    display: flex;
+}
+
+.logoHero {
+    z-index: 1;
+}
+
+.square {
+    position: absolute;
+    width: 20rem;
+    height: 21rem;
+    background-color: hsl(231, 69%, 60%);
+    top: 19.5rem;
+    right: 0;
+
+}
+
+.circle {
+    position: absolute;
+    width: 24rem;
+    height: 25rem;
+    background-color: hsl(231, 69%, 60%);
+    top: 15.5rem;
+    right: 8rem;
+    border-radius: 50%;
 }
