@@ -38,7 +38,7 @@
 
 .Logo {
     padding-left: 8rem;
-    
+    cursor: pointer;    
 }
 
 #login-btn {
