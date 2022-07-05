@@ -39,7 +39,15 @@
     color: hsl(229, 31%, 21%);
 }
 
-.line{
+.line {
+    margin-left: 6rem;
     border: .5px hsla(229, 8%, 60%, 0.404) solid;
-    width: 70%;
+    width: 80%;
+}
+
+.feature:hover {
+    color: hsl(0, 94%, 66%) ;
+    font-weight: 400;
+    
+    cursor: pointer;
 }

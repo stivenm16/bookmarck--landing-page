@@ -9,11 +9,11 @@ function Features() {
   Your bookmarks sync between your devices so you can access them on the go.</p>
             <nav className='features-nav'>
                 <ul className='features-options'>
-                    <li>Simple Bookmarking</li>
+                    <li className='feature'>Simple Bookmarking</li>
                     
-                    <li>Speedy Searching</li>
+                    <li className='feature'>Speedy Searching</li>
                     
-                    <li>Easy Sharing</li>
+                    <li className='feature'>Easy Sharing</li>
                 </ul>
                 <hr className='line'/>
             </nav>
