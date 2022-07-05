@@ -1,5 +1,6 @@
 import './index.css'
-
+import React from 'react';
+import Feature from '../Feature';
 
 function Features() {
     return (
@@ -17,7 +18,7 @@ function Features() {
                 </ul>
                 <hr className='line'/>
             </nav>
-            <div>Components</div>
+            <Feature/>
         </div>
     );
   };
