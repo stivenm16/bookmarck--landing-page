@@ -1,4 +1,3 @@
-import Logo from '../../../images/logo-bookmark.svg'
 import './index.css'
 import logoHero from '../../../images/illustration-hero.svg'
 
