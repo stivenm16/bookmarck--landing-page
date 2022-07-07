@@ -1,0 +1,59 @@
+.feature-component {
+    display: flex;
+    justify-content: center;
+}
+
+
+.cards-containers {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: 20%;
+    box-shadow: 1px 8px 20px 1px rgba(0,0,0,.1);
+    border-radius: .5rem;
+    position: relative;
+}
+
+.feature-component{
+    padding: 1.5rem;
+    padding-top: 1rem;
+}
+.cards-containers div input{
+    padding: .5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: hsl(231, 69%, 60%);
+    border: 2px solid hsla(231, 69%, 60%, 0);
+    transition: 1.5s;
+    margin-top: .6rem;
+}
+
+.cards-containers div input:hover{
+    background-color: transparent;
+    border: 2px solid hsl(231, 69%, 60%);
+    color:hsl(231, 69%, 60%)
+}
+.container-logo-ext {
+    position: relative;
+}
+
+.ext-logo {
+    padding: .7rem;
+}
+
+#chrome-ext{
+    position: absolute;
+    margin-right: 37rem;
+}
+#firefox-ext{
+    position: absolute;
+    margin-top: 3rem;
+}
+
+#opera-ext{
+    margin-left: 37rem;
+    margin-top: 6rem;
+}
