@@ -7,7 +7,7 @@ import dots from '../../../images/bg-dots.svg'
 
 function Extensions() {
     return (
-      <div>
+      <div id='extensions'>
         <h2 id='ext-title'>Download the extension</h2>
         <div className='ext-text'>    
             <span >We’ve got more browsers in the pipeline. Please do let us know if you’ve 

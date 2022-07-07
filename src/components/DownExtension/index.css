@@ -1,6 +1,7 @@
 .feature-component {
-    display: flex;
     justify-content: center;
+    padding: 3rem;
+    padding-top: 1rem;
 }
 
 
@@ -8,7 +9,7 @@
     font-weight: 800;
     font-size: 28px;
     color: hsl(229, 31%, 21%);
-    
+    margin-top: 5rem;
 }
 
 .ext-text {
@@ -34,10 +35,6 @@
     transform: translateY(-4px);
 }
 
-.feature-component{
-    padding: 1.5rem;
-    padding-top: 1rem;
-}
 .cards-containers div input{
     padding: .5rem;
     padding-left: 1.5rem;
@@ -64,7 +61,7 @@
 
 #chrome-ext{
     position: absolute;
-    margin-right: 37rem;
+    margin-right: 39rem;
 }
 #firefox-ext{
     position: absolute;
@@ -72,6 +69,6 @@
 }
 
 #opera-ext{
-    margin-left: 37rem;
+    margin-left: 38rem;
     margin-top: 6rem;
 }
