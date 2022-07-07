@@ -6,7 +6,7 @@ function Features() {
 
     let [title, setTitle] = useState('Bookmark in one click')
     let [textContent, setText] = useState('Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.')
-    let [imgId, setImgId] = useState (0)
+    let [imgId, setImgId] = useState (1)
 
     return (
         <div className="features">
@@ -19,7 +19,7 @@ function Features() {
                 <ul className='features-options'>
                     <li className='feature'>
                         <input type="button" value="Simple Bookmarking" 
-                        onClick={() => setTitle('Bookmark in one click') & setText('Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.') & setImgId(0)}
+                        onClick={() => setTitle('Bookmark in one click') & setText('Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.') & setImgId(1)}
                         className='btn-slider'
                         />
                         
@@ -27,7 +27,7 @@ function Features() {
                     
                     <li className='feature'>
                         <input type="button" value="Speedy Searching" 
-                        onClick={() => setTitle('Intelligent search') & setText('Our powerful search feature will help you find saved sites in no time at all.No need to trawl through all of your bookmarks.') & setImgId(1)}
+                        onClick={() => setTitle('Intelligent search') & setText('Our powerful search feature will help you find saved sites in no time at all.No need to trawl through all of your bookmarks.') & setImgId(2)}
                         className='btn-slider'
                         />
                          
@@ -35,7 +35,7 @@ function Features() {
                     
                     <li className='feature'>
                         <input type="button" value="Share your bookmarks" 
-                        onClick={() => setTitle('Share your bookmarks') & setText('Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.') & setImgId(2)}
+                        onClick={() => setTitle('Share your bookmarks') & setText('Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.') & setImgId(3)}
                         className='btn-slider'
                         />
                     </li>

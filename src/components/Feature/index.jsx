@@ -1,13 +1,16 @@
 import './index.css'
 import React from 'react';
-import imgPrueba from '../../../images/illustration-1.svg'
+// import imgPrueba from `../../../images/illustration-{title}.svg`
 
-function Feature({title, text}) {
+function Feature({title, text, imgId}) {
+    let path = `../../../images/illustration-${imgId}.svg`
     
-    console.log(text)
+
+    console.log(imgId)
+    console.log(0)
     return (
       <div className='feature-component'>
-        <img src={imgPrueba} alt="" />
+        <img src={path} alt="" />
         <div className='feature-text-container'>
             <h3 className='title-feature'>{title}</h3>
             <p>{text}</p>
