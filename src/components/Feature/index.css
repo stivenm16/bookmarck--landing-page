@@ -34,3 +34,21 @@
     border: 2px solid hsla(231, 69%, 60%, 0);
     transition: 1s;
 }
+
+.btn-slider {
+    background-color: transparent;
+    height: 1.5rem;
+    width: 10rem;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: hsl(229, 14%, 30%);
+    transition: 1s;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn-slider:hover, .btn-slider:active {
+    color: hsl(229, 34%, 12%);
+    font-weight: 500;
+}

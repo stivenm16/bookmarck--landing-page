@@ -2,6 +2,7 @@
     justify-content: center;
     padding: 3rem;
     padding-top: 1rem;
+    padding-left: 5.5rem;
 }
 
 
@@ -61,7 +62,7 @@
 
 #chrome-ext{
     position: absolute;
-    margin-right: 39rem;
+    margin-right: 40rem;
 }
 #firefox-ext{
     position: absolute;
