@@ -8,10 +8,12 @@ import dots from '../../../images/bg-dots.svg'
 function Extensions() {
     return (
       <div>
-        <h2>Download the extension</h2>
-        <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve 
-            got a favourite you’d like us to prioritize.
-        </p>
+        <h2 id='ext-title'>Download the extension</h2>
+        <div className='ext-text'>    
+            <span >We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+                got a favourite you’d like us to prioritize.
+            </span>
+        </div>
         <div className='feature-component'>
             <div className="cards-containers" id='chrome-ext'>
                 <div>

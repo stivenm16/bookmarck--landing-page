@@ -3,6 +3,20 @@
     justify-content: center;
 }
 
+#ext-title{
+    font-weight: 800;
+    font-size: 28px;
+    color: hsl(229, 31%, 21%);
+    
+}
+
+.ext-text {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;    
+    color: hsl(229, 8%, 60%);
+}
 
 .cards-containers {
     padding-top: 1.5rem;
