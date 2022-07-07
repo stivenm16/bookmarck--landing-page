@@ -3,6 +3,7 @@
     justify-content: center;
 }
 
+
 #ext-title{
     font-weight: 800;
     font-size: 28px;
@@ -25,6 +26,12 @@
     box-shadow: 1px 8px 20px 1px rgba(0,0,0,.1);
     border-radius: .5rem;
     position: relative;
+    transition: .7s ease-in-out;
+    cursor: pointer;
+}
+
+.cards-containers:hover {
+    transform: translateY(-4px);
 }
 
 .feature-component{
@@ -49,9 +56,6 @@
     background-color: transparent;
     border: 2px solid hsl(231, 69%, 60%);
     color:hsl(231, 69%, 60%)
-}
-.container-logo-ext {
-    position: relative;
 }
 
 .ext-logo {
