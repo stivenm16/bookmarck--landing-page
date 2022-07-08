@@ -13,7 +13,7 @@
 
 .feature-text-container h3 {
     font-size: 32px;
-    color: hsl(229, 31%, 21%)
+    color: hsl(229, 31%, 21%);
 }
 
 .feature-text-container p {
@@ -32,8 +32,16 @@
     color: #FFF;
     background-color: hsl(231, 69%, 60%);
     border: 2px solid hsla(231, 69%, 60%, 0);
-    transition: 1s;
+    transition: .5s ease-in-out;
 }
+
+.btn-info:hover {
+    background-color: transparent;
+    border: 2px solid hsl(231, 69%, 60%);
+    color:hsl(231, 69%, 60%);
+    font-weight: 500;
+}
+
 
 .btn-slider {
     background-color: transparent;
@@ -52,6 +60,7 @@
     color: hsl(229, 34%, 12%);
     font-weight: 500;
 }
+
 
 .img-container{
     position: relative;

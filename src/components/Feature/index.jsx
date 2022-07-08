@@ -16,7 +16,7 @@ function Feature({title, text, imgId}) {
         <div className='feature-text-container'>
             <h3 className='title-feature'>{title}</h3>
             <p>{text}</p>
-            <input type="button" value="more info"/>
+            <input type="button" value="more info" className='btn-info'/>
         </div>
       </div>  
     );
