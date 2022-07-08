@@ -52,3 +52,37 @@
     color: hsl(229, 34%, 12%);
     font-weight: 500;
 }
+
+.img-container{
+    position: relative;
+    display: flex;
+    width: 35rem;
+}
+
+.img-feature {
+    z-index: 1;
+}
+
+.square-feature {
+    height: 18rem;
+    width: 28rem;
+    background-color: hsl(231, 69%, 60%);
+    position: absolute;
+    top: 10rem;
+    right: 20rem;
+}
+
+.figures {
+    position:relative;
+    width: 25rem;
+}
+.circle-feature {
+    height: 18rem;
+    width: 18rem;
+    background-color: hsl(231, 69%, 60%);
+    position: absolute;
+    right: 10.5rem;
+    top: 10rem;
+    border-radius: 50%;
+}
+
