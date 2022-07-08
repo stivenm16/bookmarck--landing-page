@@ -6,11 +6,13 @@ function Footer() {
     return (
       <div className='footer'>
         <div className='top-footer'>
-            <form action="">
+            <form action="" className='footer-form'>
                 <p id='footer-small-text'>35,000+ already joined</p>
                 <p id='footer-big-text'>Stay up-to-date with what we’re doing</p>
-                <input type="text" name="" placeholder='Enter your email address' id='input-email'/>
-                <input type="button" value="Contact us" className='submit-btn' />
+                <div>
+                    <input type="text" name="" placeholder='Enter your email address' id='input-email'/>
+                    <input type="button" value="Contact us" className='submit-btn' />
+                </div>
             </form>
         </div>
         <div className='bottom-footer'>

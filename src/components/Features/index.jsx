@@ -7,7 +7,7 @@ function Features() {
     let [title, setTitle] = useState('Bookmark in one click')
     let [textContent, setText] = useState('Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.')
     let [imgId, setImgId] = useState (1)
-
+    
     return (
         <div className="features">
             <h2 className='features-title'>Features</h2>
