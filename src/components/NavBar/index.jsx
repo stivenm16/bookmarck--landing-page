@@ -9,9 +9,17 @@ function Nav() {
             <img id="logo" src={Logo}  alt="" />
             </div>
             <div className="nav-bar">
-                <button className="nav-btns">FEATURES</button>
+                <button className="nav-btns">
+                    <a href="#features">    
+                    FEATURES
+                    </a>    
+                </button>
                 <button className="nav-btns">PRICING</button>
-                <button className="nav-btns">CONTACT</button>
+                <button className="nav-btns">
+                <a href="#footer">
+                    CONTACT
+                </a>    
+                </button>
                 <button className="nav-btns" id="login-btn">LOGIN</button>
                 
             </div>

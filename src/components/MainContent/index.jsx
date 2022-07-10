@@ -9,10 +9,21 @@ function Main() {
                 <p className='main-decription'>A clean and simple interface to organize your favourite websites. Open a new 
                      browser tab and see your sites load instantly. Try it for free.
                 </p>
+
                 <div className='extensions'>
-                    <button className='download-extension' id='chrome'>Get it on Chrome</button>
-                    <button className='download-extension' id='firefox'>Get it on Firefox</button>
+                    <button className='download-extension' id='chrome'>
+                    <a href="#extensions">
+                        Get it on Chrome
+                    </a>
+                    </button>
+                    
+                    <button className='download-extension' id='firefox'>
+                    <a href="#extensions">
+                        Get it on Firefox
+                    </a>
+                    </button>
                 </div>
+
             </div>
             <div className="main-img">
                 <img src={logoHero} alt="" className='logoHero'  />

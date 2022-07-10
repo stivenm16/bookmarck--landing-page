@@ -9,7 +9,7 @@ function Features() {
     let [imgId, setImgId] = useState (1)
     
     return (
-        <div className="features">
+        <div className="features" id='features'>
             <h2 className='features-title'>Features</h2>
             <p className='features-text'>
                 Our aim is to make it  quick and easy for you to access your favourite websites. 

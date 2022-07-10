@@ -4,7 +4,7 @@ import React from 'react';
 function Footer() {
     
     return (
-      <div className='footer'>
+      <div className='footer' id='footer'>
         <div className='top-footer'>
             <form action="" className='footer-form'>
                 <p id='footer-small-text'>35,000+ already joined</p>

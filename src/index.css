@@ -2,6 +2,7 @@
 
 * {
   font-family: 'Rubik';
+  scroll-behavior: smooth;
 }
 
 body {
@@ -13,6 +14,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
 }
 
 code {
