@@ -41,7 +41,7 @@
 }
 
 .line {
-    margin-left: 6rem;
+    margin-left: 9rem;
     border: .5px hsla(229, 8%, 60%, 0.404) solid;
     width: 80%;
 }
@@ -52,3 +52,4 @@
     
     cursor: pointer;
 }
+
