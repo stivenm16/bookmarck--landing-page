@@ -11,13 +11,13 @@ function Footer() {
                 <p id='footer-big-text'>Stay up-to-date with what we’re doing</p>
                 <div className='input-div'>
                     <input type="email" name="" placeholder='Enter your email address' id='input-email'/>
-                    <input type="button" value="Contact us" className='submit-btn' id='contact-us-btn' />
+                    <input type="submit" value="Contact us" className='submit-btn' id='contact-us-btn' />
                 </div>
             </form>
         </div>
         <div className='bottom-footer'>
             <div className='left-bottom-footer'>
-                <img src="../../../images/logo-bookmark-footer.svg"/>
+                <img src="../../../images/logo-bookmark-footer.svg" id='logo-footer-book'/>
                 <ul className='footer-list'>
                     <li>FEATURES</li>
                     <li>PRICING</li>
@@ -25,8 +25,8 @@ function Footer() {
                 </ul>
             </div>
             <div className='rigth-bottom-footer'>
-                <img src="../../../images/icon-facebook.svg" alt="" />
-                <img src="../../../images/icon-twitter.svg" alt="" />
+                <img src="../../../images/icon-facebook.svg" alt="" className='footer-icons' />
+                <img src="../../../images/icon-twitter.svg" alt="" className='footer-icons'/>
             </div>
         </div>
       </div>  
