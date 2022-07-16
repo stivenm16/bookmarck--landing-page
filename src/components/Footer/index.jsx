@@ -19,9 +19,9 @@ function Footer() {
             <div className='left-bottom-footer'>
                 <img src="../../../images/logo-bookmark-footer.svg" id='logo-footer-book'/>
                 <ul className='footer-list'>
-                    <li>FEATURES</li>
-                    <li>PRICING</li>
-                    <li>CONTACT</li>
+                    <li className='footer-links'>FEATURES</li>
+                    <li className='footer-links'>PRICING</li>
+                    <li className='footer-links'>CONTACT</li>
                 </ul>
             </div>
             <div className='rigth-bottom-footer'>
