@@ -43,3 +43,35 @@
     color: #FFF;
     font-weight: 500;
 }
+
+#input-email {
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 60%;
+    border-radius: .5rem;
+    text-align: start;
+    padding-left: 1rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+.input-div{
+    width:100%;
+}
+
+#contact-us-btn{
+    height: 3rem;
+    border-radius: .5rem;
+    width: 25%;
+    color: #FFF;
+    background-color: hsl(0, 94%, 66%);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    border: 2px solid hsl(0, 94%, 66%);
+    outline: none;
+}
+
+#contact-us-btn:hover{
+    background-color: #FFF;
+    color: hsl(0, 94%, 66%);
+}

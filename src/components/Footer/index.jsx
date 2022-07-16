@@ -9,9 +9,9 @@ function Footer() {
             <form action="" className='footer-form'>
                 <p id='footer-small-text'>35,000+ already joined</p>
                 <p id='footer-big-text'>Stay up-to-date with what we’re doing</p>
-                <div>
-                    <input type="text" name="" placeholder='Enter your email address' id='input-email'/>
-                    <input type="button" value="Contact us" className='submit-btn' />
+                <div className='input-div'>
+                    <input type="email" name="" placeholder='Enter your email address' id='input-email'/>
+                    <input type="button" value="Contact us" className='submit-btn' id='contact-us-btn' />
                 </div>
             </form>
         </div>
